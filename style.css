@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("./bg-intro-desktop-1.png");
+  background-color: hsl(0, 100%, 74%);
+  font-size: 16px;
+  height: 90vh;
+}
+main {
+  margin: auto;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+}
+.text {
+  width: 30%;
+  color: white;
+  margin: auto;
+}
+h2 {
+  margin: 10px;
+  padding: 10px;
+}
+p {
+  padding: 10px;
+}
+.second {
+  width: 70%;
+  align-items: center;
+  margin: 10px;
+}
+.button1 {
+  background-color: rgb(84, 9, 138);
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  margin: 10px;
+  width: 80%;
+}
+.form {
+  background-color: white;
+  margin: 10px;
+  padding: 10px;
+  width: 80%;
+}
+.name {
+  margin: 10px;
+  padding: 10px;
+}
+.lastname {
+  margin: 10px;
+  padding: 10px;
+}
+.email {
+  margin: 10px;
+  padding: 10px;
+}
+.password {
+  margin: 10px;
+  padding: 10px;
+}
+.submit {
+  margin: 10px;
+  padding: 10px;
+  background-color: hsl(154, 59%, 51%);
+  color: white;
+  text-align: center;
+}
+button a {
+  text-decoration: none;
+  color: rgb(190, 182, 182);
+}
+button {
+  text-decoration: none;
+  background: none;
+  border: none;
+  color: white;
+}
+p a {
+  text-decoration: none;
+  color: red;
+}
+input {
+  padding: 10px;
+  width: 100%;
+}
+@media screen and (max-width: 395px) {
+  body {
+    background-image: url("./bg-intro-mobile-1.png");
+    width: fit-content;
+  }
+  main {
+    flex-direction: column;
+    margin: auto;
+  }
+  .text {
+    width: 100%;
+    color: white;
+    margin: auto;
+  }
+  .form {
+    width: 100%;
+  }
+  .button1 {
+    width: 100%;
+  }
+  .form {
+    width: 100%;
+  }
+  .second {
+    width: 100%;
+    align-items: baseline;
+  }
+}
